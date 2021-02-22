@@ -1,0 +1,30 @@
+#orderInvoiceTableTitle{
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 47, 255);
+}
+
+.OrderInvoice td{
+    border:3px solid black;
+    border-radius:10px;
+}
+
+img {
+    border-radius:50px;
+}
+
+.Invoice {
+    font-weight:bold;
+    font-size:25px;
+}
+
+.OrderInvoice
+{
+    text-align:center;
+    font-size:18px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    width: 45%;
+    border: 5px solid aqua;
+    border-radius: 30px;
+}
