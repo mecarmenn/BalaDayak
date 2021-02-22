@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="mystyles.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=Source+Sans+Pro:wght@700&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Hachi+Maru+Pop&family=Itim&family=Lobster&family=Patrick+Hand&family=Yusei+Magic&display=swap"
+            rel="stylesheet">
+
+        <title>Testing Bootstrap 4</title>
+    </head>
+
+    <body>
+        <!--
+            <section id="animated">
+            <div class="title">
+                <h1>Brad<br />Traversy</h1>
+            </div>
+        </section>
+        -->
+
+
+        <section id="hire-me" class="bg-light">
+            <div class="container">
+                <header>
+                    <h1 class="text-center pt-5">Why Hire Me?</h1>
+                </header>
+                <div class="row prof-image">
+                    <div class="col-sm d-flex flex-column justify-content-center align-items-center m-4">
+                        <span>Hardworking</span>
+                        <span>Creative</span>
+                        <span>Passionate</span>
+                        <span>Motivated</span>
+                        <span>Talented</span>
+                        <span>Smart</span>
+                        <img src="img/prof-pic.jpeg" alt="">
+                        <button class="btn btn-success">Hire Me</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="about">
+            <div class="section-content">
+                <div class="container">
+                    <div class="about-xxx col-lg-6 float-right">
+                        <h3>Hi! I'm Syasya</h3>
+                        <p class="lead">I'm a self-taught digital illustrator, living in Malaysia. I enjoy art since
+                            young and started to draw digitally when I was 16.
+                            Milton Glaser once said, "There are three responses to a piece of design - yes, no, and WOW!
+                            Wow is the one to aim for."
+                            And that's what I'm doing.</p>
+
+                        <h5>Follow me on the web</h5>
+                        <a href="#" class="text-primary">Facebook</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-main">
+            <a class="navbar-brand" href="#">Logo</a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#what-I-do">Qualification & Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-me">Contact Me</a>
+                </li>
+            </ul>
+
+        </nav>
+
+
+        <section id="what-I-do">
+            <div class="section-content">
+                <div class="container">
+                    <div class="header">
+                        <h2>What can I do</h2>
+                        <p>Here are my types of art that I am doing. I'm still exploring more art styles in my work.</p>
+                    </div>
+                    <div class="row">
+                        <!-- Using grid system, card-group, card-block concept to do this part -->
+
+                        <div class="col-sm card">
+
+                            <div class="card-body">
+                                <h4 class="card-title">Semi Realistic</h4>
+
+                            </div>
+                            <img src="img/semi-realistic.jpeg" alt="a hands on laptop">
+                            <div class="card-body">
+                                <p class="class-text">I mostly do this art style on portraits. It is fully colored with
+                                    the details. This style usually takes 1 hour to finish depending on the complexity
+                                </p>
+                                <button class="btn btn-light" data-toggle="modal" data-target="#myModal">Learn
+                                    More</button>
+                            </div>
+
+                        </div>
+                        <div class="col-sm card">
+
+                            <div class="card-body">
+                                <h4 class="card-title">Line art</h4>
+
+                            </div>
+                            <img src="img/line-art.jpeg" alt="a hands on laptop">
+                            <div class="card-body">
+                                <p class="class-text">This type of art style mostly will be doing on a white background
+                                    for minimalism. There will be no gradations in shade or hue. It takes around 30
+                                    minutes to finish simple ones.</p>
+                                <button class="btn btn-light" data-toggle="modal" data-target="#myModal">Learn
+                                    More</button>
+                            </div>
+
+                        </div>
+                        <div class="col-sm card">
+
+                            <div class="card-body">
+                                <h4 class="card-title">Cartoon</h4>
+
+                            </div>
+                            <img src="img/cartoon.jpeg" alt="a hands on laptop">
+                            <div class="card-body">
+                                <p class="class-text">Cartoon art styles are simple with not many details in them. I
+                                    usually do it colorful to make it live. This can take around 15 minutes to finish
+                                    one simple character.</p>
+                                <button class="btn btn-light" data-toggle="modal" data-target="#myModal">Learn
+                                    More</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section id="carousel" class="bg-dark">
+            <!-- Construct a carousel with at least 3 images auto-slide show, and with carousel-caption written. -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-60" src="img/e-girl.jpeg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="text-white mb-4">E-girl Portrait</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-60" src="img/lil-princess.jpeg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="mb-4">Lil' Princess & Rudolph</h3>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-60" src="img/bulb.jpeg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="mb-4">Flowery Bulb</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+
+
+
+        <section id="latest">
+            <div class="section-content">
+                <div class="container">
+
+                    <h3 class="text-center mb-5">Latest Activities Involved</h3>
+
+                    <hr>
+
+                    <div class="row">
+                        <!-- Using grid system, card-columns, card-block concept to do this part -->
+                        <div class="card-columns">
+                            <div class="card">
+                                <img class="card-img-top" src="img/field-trip.jpeg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Field trip to Kpg. Bako</h5>
+                                    <p class="card-text">Going to Kpg. Bako with my friends to complete our Project
+                                        Management task. Our visit is to get as much information as we can about the
+                                        community and the place to help us build a website to introduce Kpg Bako to the
+                                        people.</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img class="card-img-top" src="img/brain-bee.jpeg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Malaysian Brain Bee Challenge (MBBC)</h5>
+                                    <p class="card-text">Organizing the event with my fellow Cognitive Neuroscience
+                                        members at Pustaka Negeri Sarawak. The event was organized by the Department
+                                        of Neuroscience, Universiti Sains Malaysia, and collaborated with UNIMAS.
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img class="card-img-top" src="img/knowledge-transfer.jpeg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Knowledge Transfer Project</h5>
+                                    <p class="card-text">The first event that I and my fellow Cognitive Neuroscience
+                                        club members organizing an event. This event consists of talks from neuroscience
+                                        people and workshops on Praat Analysis and Neurofeedback.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <hr class="mb-4">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <footer id="contact-me" class="bg-dark text-white">
+            <div class="container ml-0 pt-5 pb-3 ml-5">
+                <div class="row">
+                    <div class="col-sm">
+                        <p>copyright 2021. My Resume.</p>
+                        <p>coded by Syasya</p>
+                    </div>
+                    <div class="col-sm">
+                        <ul class="list-unstyled">
+                            <li><a href="">About Me</a></li>
+                            <li><a href="">what can I do</a></li>
+                            <li><a href="">Photo Carosel</a></li>
+                            <li><a href="">Latest Activities Involved</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <h6>Contact Details</h6>
+                        <p>Adress: No.8, Lorong 2A, Kpg Sindang Baru, Jalan Dato Muhd Musa, 94300, Kota Samarahan,
+                            Sarawak Email: syasyaroszan@gmail.com H/P: 0148974074</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"
+            integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"
+            integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous">
+        </script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,194 @@
+/* mystyles.css */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html,
+body{
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#animated {
+	background-color: #111;
+}
+
+.title {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	letter-spacing: 1px;
+}
+
+#animated h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+
+#about {
+    background-image: url(img/about-me.jpeg);
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+}
+
+.about-xxx {
+    color: #fff;
+    background-color: rgba(0,0,0,0.6);
+    padding: 2em;
+		margin-top: 150px;
+		margin-right: -50px;
+}
+
+#what-I-do .row {
+    padding: 1em;
+}
+.card {
+    padding: 0;
+}
+.card-body {
+    flex: none;
+}
+.card-body img {
+    margin: 10px 0;
+}
+
+.carousel-item img {
+	margin: auto;
+}
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.8);
+	margin-bottom: -20px;
+	padding: none;
+}
+.prof-image .col-sm {
+	height: 80vh;
+	position: relative;
+}
+.prof-image	img{
+	width: 20%;
+	margin-bottom: 20px;
+	animation-name: fade-in-down;
+	animation: fade-in-down 1s ease forwards;
+}
+
+.prof-image span {
+	opacity: 0;
+	animation-name: bounceIn;
+	animation-timing-function: linear;
+	animation-duration: 450ms;
+	animation-fill-mode: forwards;
+}
+
+.prof-image span:nth-child(1) {
+	position: absolute;
+	left: 0;
+	top: 100px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #EE7879;
+	font-size: 3vw;
+	animation-delay: 1s;
+}
+
+.prof-image span:nth-child(2) {
+	position: absolute;
+	right: 100px;
+	top: 100px;
+	font-family: 'Patrick Hand', cursive;
+	color: #E56B1F;
+	font-size: 4vw;
+	animation-delay: 1.25s;
+}
+
+.prof-image span:nth-child(3) {
+	position: absolute;
+	right: 0;
+	top: 240px;
+	font-family: 'Lobster', cursive;
+	color: #28559A;
+	font-size: 5vw;
+	animation-delay: 1.5s;
+}
+
+.prof-image span:nth-child(4) {
+	position: absolute;
+	left: 80px;
+	bottom: 150px;
+	font-family: 'Patrick Hand', cursive;
+	color: #E12B38;
+	font-size: 3vw;
+	animation-delay: 1.75s;
+}
+
+.prof-image span:nth-child(5) {
+	position: absolute;
+	left: 50px;
+	bottom: 280px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #FCC133;
+	font-size: 3vw;
+	animation-delay: 2s;
+}
+
+.prof-image span:nth-child(6) {
+	position: absolute;
+	right: 100px;
+	bottom: 100px;
+	font-family: 'Hachi Maru Pop', cursive;
+	color: #32064A;
+	font-size: 4vw;
+	animation-delay: 2.25s;
+}
+
+@keyframes bounceIn{
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  50%{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
+}
+
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/* Animation Source code https://codepen.io/codeams/pen/IuGxn */
